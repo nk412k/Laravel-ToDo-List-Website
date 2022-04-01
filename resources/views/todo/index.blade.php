@@ -13,10 +13,11 @@
     
     <h1 id='heading'>All Your TODOsss...</h1>
     <div class="box">
+        <div class="table-head"><b>Task List</b></div>
     <h3 class="alert">
         <x-alert />
     </h3>
-    <table>		
+    <table>        		
 		<tbody>			
         @foreach($todos as $todo)
             <tr class="task-list">

@@ -85,6 +85,15 @@ table {
     min-width: 392px;
 }
 
+.table-head{
+	font-size: 25px;
+	color: black;
+  text-align: center;
+  text-decoration: solid;
+  margin-bottom: 10px;
+}
+
+
 
 tbody tr {
   height: 45px;  
